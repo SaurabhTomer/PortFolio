@@ -19,3 +19,5 @@ jobs:
           aws-secret-access-id: ${{ secrets.AWS_SECRET_ACCESS_ID }}
           aws-region: eu-west-1
           
+      - name: Deploy static site to S3 bucket
+        run: aws s3 sync . s3://saurabh-tomer-portfolio --delete
