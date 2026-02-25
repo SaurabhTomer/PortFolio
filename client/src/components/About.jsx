@@ -3,7 +3,7 @@ const About = () => {
     <section id="about" className="py-20 bg-gray-800">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-white text-center mb-16">
-          About <span className="text-blue-400">Me</span>
+          About Saurabh <span className="text-blue-400">Me</span>
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
